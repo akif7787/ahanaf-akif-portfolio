@@ -374,3 +374,50 @@ if (form) {
   c.setAttribute('r', 1.6); c.setAttribute('fill', '#5EEAD4');
   svg.appendChild(c);
 })();
+
+// Theme Toggle Controller — Defaults to dark mode, persists user choice, smooth transition
+(function themeController() {
+  const root = document.documentElement;
+  const toggles = document.querySelectorAll('.theme-toggle');
+  const metaTheme = document.querySelector('meta[name="theme-color"]');
+
+  const updateUI = (theme) => {
+    const isLight = theme === 'light';
+    const nextLabel = isLight ? 'Switch to dark mode' : 'Switch to light mode';
+    toggles.forEach((btn) => {
+      btn.setAttribute('aria-label', nextLabel);
+      btn.setAttribute('title', nextLabel);
+    });
+    if (metaTheme) {
+      metaTheme.setAttribute('content', isLight ? '#F8FAFC' : '#0A0B0D');
+    }
+  };
+
+  const setTheme = (theme, animate = true) => {
+    if (animate) {
+      root.classList.add('theme-transition');
+    }
+    root.setAttribute('data-theme', theme);
+    try {
+      localStorage.setItem('theme', theme);
+    } catch (e) {}
+    updateUI(theme);
+    if (animate) {
+      setTimeout(() => {
+        root.classList.remove('theme-transition');
+      }, 350);
+    }
+  };
+
+  // Sync state from document attribute (set earlier by FOUC script) or fallback
+  const activeTheme = root.getAttribute('data-theme') || 'dark';
+  updateUI(activeTheme);
+
+  toggles.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const current = root.getAttribute('data-theme') || 'dark';
+      const target = current === 'light' ? 'dark' : 'light';
+      setTheme(target, true);
+    });
+  });
+})();
