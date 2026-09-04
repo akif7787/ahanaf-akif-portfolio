@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Ahanf Akif | Cyber Security & Software Engineering</title>
+<meta name="description" content="Portfolio of Ahanf Akif — Computer Science graduate pursuing an M.Sc. in Software Engineering with a major in Cyber Security. Building PhishGuard and hands-on experience in Linux, networking, web security, and secure software development."/>
+<meta name="author" content="Mohammed Ahanaf Akif Rahman"/>
+<meta name="theme-color" content="#0A0B0D"/>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Ahanf Akif | Cyber Security & Software Engineering"/>
+<meta property="og:description" content="Computer Science graduate building hands-on Cyber Security experience through projects like PhishGuard — an explainable phishing website detection system."/>
+<meta property="og:site_name" content="Ahanf Akif"/>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Ahanf Akif | Cyber Security & Software Engineering"/>
+<meta name="twitter:description" content="Learn. Build. Test. Improve."/>
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%235EEAD4'/><text x='16' y='22' text-anchor='middle' font-family='ui-monospace,monospace' font-size='18' font-weight='700' fill='%2306201C'>A</text></svg>"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image" href="assets/ahanaf-akif-portrait.png?v=2"/>
+<link rel="stylesheet" href="assets/styles.css?v=4"/>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader-grid"></div>
+  <div class="preloader-scan"></div>
+  <div class="preloader-brand">
+    <div class="preloader-mark">A</div>
+    <div class="preloader-name">Ahanf Akif</div>
+    <div class="preloader-tag">
+      <span>Cyber Security</span>
+      <span class="sep">•</span>
+      <span>Software Engineering</span>
+    </div>
+  </div>
+  <div class="preloader-bar">
+    <div class="preloader-track"><div class="preloader-fill"></div></div>
+    <div class="preloader-percent">
+      <span>Initializing</span>
+      <span><span class="p-num">000</span>%</span>
+    </div>
+  </div>
+</div>
+
+<!-- CV Modal -->
+<div class="cv-modal" id="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title" aria-hidden="true" data-pdf="assets/Ahanf-Akif-CV.pdf">
+  <div class="cv-panel">
+    <div class="cv-head">
+      <div class="title" id="cv-modal-title">Curriculum Vitae · Ahanaf Akif</div>
+      <div class="cv-head-actions">
+        <a href="assets/Ahanf-Akif-CV.pdf" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+          Open in new tab
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+        <a href="assets/Ahanf-Akif-CV.pdf" download class="btn btn-primary btn-sm">
+          Download
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+        <button class="cv-close" data-cv-close aria-label="Close CV viewer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="cv-body">
+      <iframe title="Ahanaf Akif — CV PDF" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Ambient background -->
+<div class="ambient" aria-hidden="true">
+  <div class="grid"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+</div>
+
+<!-- SVG defs (shared) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="chart-grad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<!-- Reusable social icons (via <use>) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.19-1.48 3.15-1.17 3.15-1.17.62 1.58.23 2.75.11 3.04.73.8 1.18 1.83 1.18 3.08 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.05.78 2.12v3.14c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.4v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.36 4.26 5.44v6.3zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5H16.7V3.7c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2H7.3v3.1h2.7V21h3.5z"/></symbol>
+    <symbol id="i-behance" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 6H2v12h6c2.5 0 4.2-1.4 4.2-3.6 0-1.6-.8-2.6-2-3 .9-.4 1.5-1.3 1.5-2.5C11.7 7.1 10.2 6 7.8 6zm-.4 4.7H4.3V7.8h3.1c1 0 1.6.5 1.6 1.4s-.6 1.5-1.6 1.5zm.2 5.5H4.3v-3.5h3.4c1.2 0 1.9.7 1.9 1.7 0 1.1-.7 1.8-1.9 1.8zM19.5 9c-2.4 0-4.1 1.8-4.1 4.3s1.7 4.3 4.2 4.3c1.9 0 3.4-1 3.9-2.6h-2.1c-.3.6-.9.9-1.7.9-1.2 0-2-.8-2.1-2h6c.1-.3.1-.6.1-.9 0-2.4-1.7-4-4.2-4zm-1.9 3.4c.2-1 .9-1.7 1.9-1.7s1.7.7 1.9 1.7h-3.8zM17 6.5h4.5v1.4H17z"/></symbol>
+    <symbol id="i-dribbble" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm6.6 4.6c1.2 1.5 1.9 3.3 2 5.3-.3-.1-3.2-.7-6.2-.3-.1-.2-.1-.3-.2-.5-.2-.5-.4-.9-.6-1.4 3.3-1.3 4.7-3.2 5-3.1zM12 3.7c2.1 0 4.1.8 5.6 2.1-.2.3-1.5 2-4.6 3.2-1.4-2.6-3-4.7-3.3-5 .7-.2 1.5-.3 2.3-.3zM7.9 4.7c.2.3 1.8 2.5 3.2 5-4 1.1-7.6 1.1-8 1 .6-2.6 2.4-4.8 4.8-6zM3.7 12v-.3c.4 0 4.5.1 8.9-1.2.3.5.5 1 .7 1.5-.1 0-.2.1-.4.1-4.6 1.5-7 5.5-7.2 5.9-1.2-1.5-2-3.5-2-5.5zM12 20.3c-1.8 0-3.5-.6-4.8-1.6.2-.3 2.4-4.6 7.4-6.4 3.3.9 4.6 2.4 4.9 2.6-1.3 3.2-4.3 5.4-7.5 5.4zm5.4-6.4c.4-.1 2.6-.7 5.3-.4-.4 2.2-1.5 4.1-3.1 5.5-.4-.6-1.4-3.3-2.2-5.1z"/></symbol>
+    <symbol id="i-medium" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 12c0 3.6-2.9 6.5-6.5 6.5S.5 15.6.5 12 3.4 5.5 7 5.5s6.5 2.9 6.5 6.5zm7.1 0c0 3.4-1.5 6.1-3.3 6.1s-3.3-2.7-3.3-6.1 1.5-6.1 3.3-6.1 3.3 2.7 3.3 6.1zm3 0c0 3-.5 5.5-1.2 5.5s-1.2-2.5-1.2-5.5.5-5.5 1.2-5.5 1.2 2.5 1.2 5.5z"/></symbol>
+    <symbol id="i-linktree" viewBox="0 0 24 24"><path fill="currentColor" d="M10.5 15.5h3v6.5h-3v-6.5zM3 9.5h5.6L4.5 5.3l2.1-2.1 4.1 4.1V2h3v5.4l4.1-4.2 2.1 2.1L15.8 9.6H21v3h-5.3l4.1 4.2-2 2-5.6-5.6-5.6 5.6-2.1-2 4.1-4.2H3v-3z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" points="22,6 12,13 2,6"/></symbol>
+  </defs>
+</svg>
+
+<!-- =========================================
+     NAV
+     ========================================= -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand" aria-label="Ahanf Akif — home">
+      <div class="brand-mark">A</div>
+      <div class="brand-name">ahanf.akif<span>/sec</span></div>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="#" data-cv-view class="btn btn-primary btn-sm">
+        View CV
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+      </a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#" data-cv-view class="btn btn-primary mm-cv">
+    View CV
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+  </a>
+</div>
+
+<main>
+
+<!-- =========================================
+     HERO
+     ========================================= -->
+<section id="home" class="hero" data-screen-label="01 Hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-copy reveal">
+        <div class="hero-label">
+          <span class="pulse" aria-hidden="true"></span>
+          <span>CYBER SECURITY</span>
+          <span style="color:var(--text-dim)" aria-hidden="true">•</span>
+          <span>SOFTWARE ENGINEERING</span>
+        </div>
+
+        <h1 class="hero-title">
+          Building secure systems.<br>
+          Understanding threats.<br>
+          <span class="accent-line">Learning by doing.</span>
+        </h1>
+
+        <p class="hero-desc">
+          I'm Ahanf Akif — a Computer Science graduate currently pursuing Software Engineering with a major in Cyber Security. I'm building hands-on experience in Linux, networking, web security, Python, and security-focused application development.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#" data-cv-view class="btn btn-ghost">
+            View CV
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+          </a>
+          <a href="assets/Ahanf-Akif-CV.pdf" class="btn btn-ghost" download aria-label="Download CV PDF">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download
+          </a>
+        </div>
+
+        <div class="hero-social" aria-label="Social profiles">
+          <a href="https://github.com/akif7787" target="_blank" rel="noopener" aria-label="GitHub"><svg aria-hidden="true"><use href="#i-github"/></svg></a>
+          <a href="https://www.linkedin.com/in/ahanafakif21/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+          <a href="https://www.facebook.com/ahanafak7787" target="_blank" rel="noopener" aria-label="Facebook"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a>
+          <a href="https://www.behance.net/ahanafakif21" target="_blank" rel="noopener" aria-label="Behance"><svg aria-hidden="true"><use href="#i-behance"/></svg></a>
+          <a href="https://dribbble.com/ahanafak21" target="_blank" rel="noopener" aria-label="Dribbble"><svg aria-hidden="true"><use href="#i-dribbble"/></svg></a>
+          <a href="https://medium.com/@ahanafakif21" target="_blank" rel="noopener" aria-label="Medium"><svg aria-hidden="true"><use href="#i-medium"/></svg></a>
+          <a href="https://linktr.ee/ahanafakif" target="_blank" rel="noopener" aria-label="Linktree"><svg aria-hidden="true"><use href="#i-linktree"/></svg></a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="item">
+            <div class="k">Status</div>
+            <div class="v"><span class="dot" aria-hidden="true"></span>Open to opportunities</div>
+          </div>
+          <div class="item">
+            <div class="k">Currently</div>
+            <div class="v">M.Sc. · Major in Cyber Security</div>
+          </div>
+          <div class="item">
+            <div class="k">Based in</div>
+            <div class="v">Dhaka, Bangladesh · GMT+6</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portrait -->
+      <div class="hero-viz reveal">
+        <div class="portrait-glow" aria-hidden="true"></div>
+        <div class="portrait">
+          <img src="assets/ahanaf-akif-portrait.png?v=2" alt="Portrait of Mohammed Ahanaf Akif Rahman — Cyber Security & Software Engineering student" width="819" height="1024" loading="eager" fetchpriority="high"/>
+          <span class="corner tl" aria-hidden="true"></span>
+          <span class="corner tr" aria-hidden="true"></span>
+          <span class="corner bl" aria-hidden="true"></span>
+          <span class="corner br" aria-hidden="true"></span>
+          <span class="scan" aria-hidden="true"></span>
+          <div class="portrait-chip" aria-hidden="true">
+            <span class="live-dot"></span>
+            <span class="who">Ahanf Akif</span>
+            <span class="role">M.Sc · Cyber Security</span>
+          </div>
+        </div>
+        <div class="portrait-badge top-right" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Security Focused
+        </div>
+        <div class="portrait-badge bot-left" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Learning by Building
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     ABOUT
+     ========================================= -->
+<section id="about" data-screen-label="02 About">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">01 — About Me</span>
+      </div>
+      <h2>Curious by default.<br>Careful by design.</h2>
+      <p class="section-sub">A brief on my background and where I'm headed.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>
+          I'm a Computer Science graduate currently pursuing an <strong>M.Sc. in Software Engineering with a major in Cyber Security</strong>. My current focus is developing practical security skills through <strong>Linux, networking, web security, Python, security tooling, and hands-on projects</strong>.
+        </p>
+        <p>
+          One of my recent projects, <strong>PhishGuard</strong>, is an explainable phishing website detection and URL security analysis system built with Python and Flask. It examines suspicious URLs across lexical, DNS, WHOIS, and SSL/TLS signals, then produces a transparent 0–100 risk score with itemized reasoning.
+        </p>
+        <p>
+          My professional background is in social media management, community building, and digital growth — the ground I'm building the next chapter on.
+        </p>
+        <p>
+          My goal is to continue <strong>learning, building, testing, and developing practical security solutions</strong>.
+        </p>
+
+        <div class="about-tags">
+          <span class="tag">Cyber Security</span>
+          <span class="tag">Software Engineering</span>
+          <span class="tag">Python · Flask</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Networking</span>
+          <span class="tag">Web Security</span>
+        </div>
+      </div>
+
+      <div class="about-card reveal">
+        <div class="card-head">
+          <div class="title">Areas of Focus</div>
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-dim)">Learning tracks</div>
+        </div>
+        <div class="focus-grid">
+          <div class="focus">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="label">Cyber Security</div>
+            <div class="desc">Fundamentals, threats, defensive and offensive concepts.</div>
+          </div>
+          <div class="focus">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            </div>
+            <div class="label">Linux</div>
+            <div class="desc">System administration, shells, and command-line workflows.</div>
+          </div>
+          <div class="focus">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="label">Networking</div>
+            <div class="desc">TCP/IP, OSI model, DNS, HTTP and packet analysis.</div>
+          </div>
+          <div class="focus">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 15h3"/></svg>
+            </div>
+            <div class="label">Web Security</div>
+            <div class="desc">OWASP concepts, authentication, and common web vulnerabilities.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     SKILLS
+     ========================================= -->
+<section id="skills" data-screen-label="03 Skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">02 — Skills</span>
+      </div>
+      <h2>Skills &amp; instruments.</h2>
+      <p class="section-sub">Categorized by area. Everything below reflects hands-on practice or active learning — not claimed expertise.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-head">
+          <div class="title">Cyber Security</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+        </div>
+        <div class="skill-chips">
+          <span class="skill-chip">Security Fundamentals</span>
+          <span class="skill-chip">Network Security</span>
+          <span class="skill-chip">Web Security</span>
+          <span class="skill-chip">OWASP</span>
+          <span class="skill-chip">Vulnerability Assessment</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head">
+          <div class="title">Linux &amp; Networking</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+        </div>
+        <div class="skill-chips">
+          <span class="skill-chip">Linux</span>
+          <span class="skill-chip">Bash</span>
+          <span class="skill-chip">TCP/IP</span>
+          <span class="skill-chip">OSI Model</span>
+          <span class="skill-chip">DNS</span>
+          <span class="skill-chip">HTTP/HTTPS</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head">
+          <div class="title">Security Tools</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+        </div>
+        <div class="skill-chips">
+          <span class="skill-chip">Kali Linux</span>
+          <span class="skill-chip">Nmap</span>
+          <span class="skill-chip">Wireshark</span>
+          <span class="skill-chip">Burp Suite</span>
+          <span class="skill-chip">OWASP ZAP</span>
+          <span class="skill-chip">Metasploit</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-head">
+          <div class="title">Programming &amp; Development</div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+        </div>
+        <div class="skill-chips">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">Flask</span>
+          <span class="skill-chip">JavaScript</span>
+          <span class="skill-chip">HTML</span>
+          <span class="skill-chip">CSS</span>
+          <span class="skill-chip">Node.js</span>
+          <span class="skill-chip">SQL</span>
+          <span class="skill-chip">Git</span>
+          <span class="skill-chip">GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     PROJECTS — FEATURED PhishGuard
+     ========================================= -->
+<section id="projects" data-screen-label="04 Projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">03 — Projects</span>
+      </div>
+      <h2>Featured project.</h2>
+      <p class="section-sub">A hands-on cybersecurity build. More projects on the way — this section grows with each new one.</p>
+    </div>
+
+    <article class="featured-project reveal">
+      <div class="fp-head">
+        <div>
+          <div class="fp-eyebrow">Featured Project · Cyber Security</div>
+          <div class="fp-title">
+            <div class="fp-icon" aria-hidden="true">🛡️</div>
+            <div class="fp-name">PhishGuard</div>
+          </div>
+          <div class="fp-tag">Explainable Phishing Website Detection &amp; URL Security Analysis</div>
+        </div>
+      </div>
+
+      <p class="fp-desc">
+        <strong>PhishGuard</strong> is an explainable phishing website detection and URL security analysis system that evaluates suspicious URLs using multiple security indicators and produces a transparent <strong>0–100 risk assessment</strong>. It's designed to help users understand <em>why</em> a URL may appear suspicious instead of relying on a black-box verdict.
+      </p>
+      <p class="fp-desc" style="color:var(--text-dim);font-family:var(--font-mono);font-size:13px;letter-spacing:0.02em">
+        <span style="color:var(--accent)">"</span>Built to learn by building.<span style="color:var(--accent)">"</span>
+      </p>
+
+      <div class="fp-badges">
+        <span class="fp-badge">Python</span>
+        <span class="fp-badge">Flask</span>
+        <span class="fp-badge">HTML5</span>
+        <span class="fp-badge">CSS3</span>
+        <span class="fp-badge">JavaScript</span>
+        <span class="fp-badge">SQLite</span>
+        <span class="fp-badge">DNS</span>
+        <span class="fp-badge">WHOIS</span>
+        <span class="fp-badge">SSL/TLS</span>
+        <span class="fp-badge">tldextract</span>
+        <span class="fp-badge">cryptography</span>
+        <span class="fp-badge">Netlify</span>
+        <span class="fp-badge">Render</span>
+        <span class="fp-badge">Git</span>
+        <span class="fp-badge">pytest</span>
+      </div>
+
+      <div class="fp-actions">
+        <a href="https://phishing-security7787.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary">
+          Live Demo
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+        <a href="https://github.com/akif7787/phishing-website-detector" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg>
+          View Source Code
+        </a>
+      </div>
+
+      <!-- Security features -->
+      <div class="fp-features">
+        <div class="fp-feature">
+          <div class="fp-feature-head">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
+            <h4>URL &amp; Lexical Heuristics</h4>
+          </div>
+          <ul>
+            <li>URL length &amp; structure analysis</li>
+            <li>Suspicious TLD detection</li>
+            <li>Brand impersonation / spoofing</li>
+            <li>Punycode / homograph detection</li>
+            <li>Subdomain &amp; entropy analysis</li>
+            <li>Obfuscation &amp; dangerous extensions</li>
+          </ul>
+        </div>
+
+        <div class="fp-feature">
+          <div class="fp-feature-head">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+            <h4>Domain &amp; WHOIS</h4>
+          </div>
+          <ul>
+            <li>Domain creation &amp; expiration</li>
+            <li>Domain age analysis</li>
+            <li>Privacy proxy detection</li>
+            <li>Expiration warnings</li>
+          </ul>
+        </div>
+
+        <div class="fp-feature">
+          <div class="fp-feature-head">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+            <h4>SSL / TLS</h4>
+          </div>
+          <ul>
+            <li>Certificate validity</li>
+            <li>Issuer, CN, SAN</li>
+            <li>Hostname matching</li>
+            <li>Self-signed detection</li>
+          </ul>
+        </div>
+
+        <div class="fp-feature">
+          <div class="fp-feature-head">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12h4l3-9 6 18 3-9h4"/></svg></div>
+            <h4>DNS &amp; Network</h4>
+          </div>
+          <ul>
+            <li>IPv4 / A &amp; IPv6 / AAAA records</li>
+            <li>MX &amp; NS records</li>
+            <li>NXDOMAIN detection</li>
+            <li>Direct IP hosting detection</li>
+          </ul>
+        </div>
+
+        <div class="fp-feature">
+          <div class="fp-feature-head">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h4>SSRF Protection</h4>
+          </div>
+          <ul>
+            <li>Localhost &amp; loopback blocking</li>
+            <li>Private IP range protection</li>
+            <li>Link-local protection</li>
+            <li>Cloud metadata endpoint blocking</li>
+          </ul>
+        </div>
+
+        <div class="fp-feature">
+          <div class="fp-feature-head">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+            <h4>Explainable Risk Scoring</h4>
+          </div>
+          <ul>
+            <li>Transparent 0–100 risk score</li>
+            <li>Itemized indicators</li>
+            <li>Risk levels</li>
+            <li>Actionable guidance</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Architecture -->
+      <div class="fp-arch">
+        <div class="fp-arch-title">Architecture</div>
+        <div class="arch-flow">
+          <div class="arch-node">User / Browser</div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-node">PhishGuard Web Interface <span style="color:var(--text-dim)">· Netlify</span></div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-node">Flask REST API <span style="color:var(--text-dim)">· Render</span></div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-node">SSRF Validation &amp; URL Sanitization</div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-group">
+            <div class="arch-node">URL Heuristics</div>
+            <div class="arch-node">DNS Analysis</div>
+            <div class="arch-node">WHOIS / Age</div>
+            <div class="arch-node">SSL / TLS</div>
+          </div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-node accent">Explainable Risk Scoring Engine</div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-node">Security Assessment · 0–100</div>
+          <div class="arch-arrow">↓</div>
+          <div class="arch-node">User</div>
+        </div>
+        <div style="display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;padding-top:20px;border-top:1px solid var(--border);font-family:var(--font-mono);font-size:11.5px;color:var(--text-mute)">
+          <span><span style="color:var(--text-dim)">Frontend:</span> Netlify</span>
+          <span><span style="color:var(--text-dim)">Backend:</span> Python + Flask (Render)</span>
+          <span><span style="color:var(--text-dim)">Database:</span> SQLite</span>
+          <span><span style="color:var(--text-dim)">Tests:</span> pytest</span>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="fp-disclaimer">
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <div>
+          <strong>Educational &amp; Research Purpose Only</strong>
+          Automated heuristic analysis provides a probabilistic threat assessment. It is not an absolute guarantee that a website is safe or malicious.
+        </div>
+      </div>
+    </article>
+
+    <!-- OTHER PROJECTS -->
+    <div class="projects-subhead reveal">
+      <span class="num">— Other Projects</span>
+      <h3>More on the way.</h3>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Payroll Management System -->
+      <article class="project reveal">
+        <div class="project-thumb" aria-hidden="true">
+          <div class="thumb-grid-bg"></div>
+          <div class="thumb-content">
+            <div class="top"><span>PROJECT</span><span>DATA · SQL</span></div>
+            <div class="center">
+              <div style="font-family:var(--font-mono);font-size:11.5px;line-height:1.9;color:var(--text-mute);text-align:left">
+                <div><span style="color:var(--accent)">▸</span> employees &amp; roles</div>
+                <div><span style="color:var(--accent)">▸</span> attendance &amp; hours</div>
+                <div><span style="color:var(--accent)">▸</span> salary calculations</div>
+                <div><span style="color:var(--accent)">▸</span> payslip generation</div>
+              </div>
+            </div>
+            <div class="bottom">→ CRUD · reports</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Academic / Personal</div>
+          <h3 class="project-name">Payroll Management System</h3>
+          <p class="project-desc">A payroll management application covering employees, roles, attendance, salary calculations, and payslip generation.</p>
+          <div class="lbl-row">
+            <div class="lbl">Focus</div>
+            <div class="lbl-body">CRUD workflows · data modeling · reports</div>
+          </div>
+          <div class="lbl-row">
+            <div class="lbl">Stack</div>
+            <div class="chip-row">
+              <span class="chip">SQL</span><span class="chip">Software Engineering</span>
+            </div>
+          </div>
+          <div class="project-foot">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/akif7787" target="_blank" rel="noopener">
+              <svg width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Personal Portfolio -->
+      <article class="project reveal">
+        <div class="project-thumb" aria-hidden="true">
+          <div class="thumb-grid-bg"></div>
+          <div class="thumb-content">
+            <div class="top"><span>PROJECT</span><span>WEB · UI</span></div>
+            <div class="center">
+              <div style="font-family:var(--font-mono);font-size:12px;line-height:1.9;color:var(--text-mute);text-align:left">
+                <div><span style="color:var(--accent)">▸</span> responsive layout</div>
+                <div><span style="color:var(--accent)">▸</span> semantic HTML</div>
+                <div><span style="color:var(--accent)">▸</span> premium dark UI</div>
+                <div><span style="color:var(--accent)">▸</span> accessible controls</div>
+              </div>
+            </div>
+            <div class="bottom">→ this website</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Personal Project</div>
+          <h3 class="project-name">Personal Portfolio</h3>
+          <p class="project-desc">The site you're reading now — a dark, technical portfolio built for a Cyber Security &amp; Software Engineering identity.</p>
+          <div class="lbl-row">
+            <div class="lbl">Focus</div>
+            <div class="lbl-body">Accessible UI · responsive layout · clear content</div>
+          </div>
+          <div class="lbl-row">
+            <div class="lbl">Stack</div>
+            <div class="chip-row">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-foot">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/akif7787" target="_blank" rel="noopener">
+              <svg width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Web Project -->
+      <article class="project reveal">
+        <div class="project-thumb" aria-hidden="true">
+          <div class="thumb-grid-bg"></div>
+          <div class="thumb-content">
+            <div class="top"><span>PROJECT</span><span>WEB</span></div>
+            <div class="center">
+              <div style="font-family:var(--font-mono);font-size:12px;line-height:1.9;color:var(--text-mute);text-align:left">
+                <div><span style="color:var(--accent)">▸</span> front-end structure</div>
+                <div><span style="color:var(--accent)">▸</span> styling &amp; layout</div>
+                <div><span style="color:var(--accent)">▸</span> interaction basics</div>
+              </div>
+            </div>
+            <div class="bottom">→ web fundamentals</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Practice Project</div>
+          <h3 class="project-name">Web Project</h3>
+          <p class="project-desc">A web development practice project covering front-end fundamentals — structure, styling, and basic interactivity.</p>
+          <div class="lbl-row">
+            <div class="lbl">Focus</div>
+            <div class="lbl-body">Front-end fundamentals · layout · interaction</div>
+          </div>
+          <div class="lbl-row">
+            <div class="lbl">Stack</div>
+            <div class="chip-row">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-foot">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/akif7787" target="_blank" rel="noopener">
+              <svg width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     CYBER SECURITY LEARNING
+     ========================================= -->
+<section id="learning" data-screen-label="05 Learning">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">04 — Cyber Security Learning</span>
+      </div>
+      <h2>Building practical experience.</h2>
+      <p class="section-sub">Areas I'm actively practicing right now — not certificates, just honest hands-on learning.</p>
+    </div>
+
+    <div class="learn-panel reveal">
+      <div class="learn-head">
+        <div class="live">Currently Learning · Hands-on Practice</div>
+        <div class="title">Active learning tracks</div>
+      </div>
+      <div class="learn-grid">
+        <div class="learn-item">
+          <div class="name">Linux &amp; Bash</div>
+          <div class="desc">Command line · file system · permissions</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">Computer Networking</div>
+          <div class="desc">TCP/IP · OSI · DNS · HTTP</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">Web Security</div>
+          <div class="desc">Auth · sessions · common flaws</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">OWASP Top 10</div>
+          <div class="desc">Category-by-category study &amp; labs</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">Python for Security</div>
+          <div class="desc">Scripting · scanning · analysis tools</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">Security Tooling</div>
+          <div class="desc">Kali · Nmap · Wireshark · Burp Suite</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">SOC Fundamentals</div>
+          <div class="desc">Monitoring · alerting · triage concepts</div>
+        </div>
+        <div class="learn-item">
+          <div class="name">Secure Software Development</div>
+          <div class="desc">Secure defaults · input handling · defensive coding</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     PROFESSIONAL EXPERIENCE
+     ========================================= -->
+<section id="experience" data-screen-label="06 Experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">05 — Professional Experience</span>
+      </div>
+      <h2>Digital work that built the foundation.</h2>
+      <p class="section-sub">My professional background is in social media, community building, and digital growth. It's part of my professional story — not my cybersecurity experience.</p>
+    </div>
+
+    <div class="pro-list">
+      <article class="role reveal">
+        <div class="role-meta">
+          <div class="role-when">Feb 2020 — Present</div>
+          <span class="role-type">Digital / Social</span>
+          <div class="role-loc">Freelance · Remote<br>Dhaka, Bangladesh</div>
+        </div>
+        <div class="role-body">
+          <h3>Independent Social Media Manager</h3>
+          <div class="role-org">Self-employed</div>
+          <ul>
+            <li>Built and managed multiple social media communities.</li>
+            <li>Grew combined audiences to 2.3M+ followers through organic strategies.</li>
+            <li>Developed trend-driven content strategies and daily community engagement.</li>
+            <li>Managed content publishing, page optimization, and performance analysis.</li>
+            <li>Identified high-performing topics and engagement opportunities.</li>
+          </ul>
+          <div class="role-tools">
+            <div class="lbl">Tools</div>
+            <div class="chip-row">
+              <span class="chip">Meta Business Suite</span>
+              <span class="chip">Meta Ads Manager</span>
+              <span class="chip">Facebook Insights</span>
+              <span class="chip">Canva</span>
+              <span class="chip">Canva AI</span>
+              <span class="chip">ChatGPT</span>
+              <span class="chip">Google Sheets</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="role reveal">
+        <div class="role-meta">
+          <div class="role-when">Jul 2025 — Sep 2025</div>
+          <span class="role-type">Digital / Social</span>
+          <div class="role-loc">Remote<br>Dhaka, Bangladesh</div>
+        </div>
+        <div class="role-body">
+          <h3>Social Media Growth Specialist</h3>
+          <div class="role-org">Branddora</div>
+          <ul>
+            <li>Managed social media presence across multiple platforms.</li>
+            <li>Developed content strategies and promotional brand content.</li>
+            <li>Used audience insights and performance data to guide decisions.</li>
+            <li>Optimized reach and engagement across channels.</li>
+          </ul>
+          <div class="role-tools">
+            <div class="lbl">Tools</div>
+            <div class="chip-row">
+              <span class="chip">Meta Business Suite</span>
+              <span class="chip">Meta Ads Manager</span>
+              <span class="chip">Facebook Insights</span>
+              <span class="chip">Canva</span>
+              <span class="chip">ChatGPT</span>
+              <span class="chip">Instagram</span>
+              <span class="chip">WhatsApp Business</span>
+              <span class="chip">Google Drive</span>
+              <span class="chip">Google Calendar</span>
+              <span class="chip">Figma</span>
+              <span class="chip">Notion</span>
+              <span class="chip">Perplexity</span>
+              <span class="chip">Claude</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="role reveal">
+        <div class="role-meta">
+          <div class="role-when">Mar 2024 — Aug 2024</div>
+          <span class="role-type">Digital / Social</span>
+          <div class="role-loc">Remote<br>Dhaka, Bangladesh</div>
+        </div>
+        <div class="role-body">
+          <h3>Social Media Manager</h3>
+          <div class="role-org">Digital Soft Zone</div>
+          <ul>
+            <li>Managed social media content and planned content calendars.</li>
+            <li>Developed growth strategies and created social media creatives.</li>
+            <li>Analyzed audience behavior and optimized content performance.</li>
+          </ul>
+          <div class="role-tools">
+            <div class="lbl">Tools</div>
+            <div class="chip-row">
+              <span class="chip">Meta Business Suite</span>
+              <span class="chip">Meta Ads Manager</span>
+              <span class="chip">Facebook</span>
+              <span class="chip">Instagram</span>
+              <span class="chip">Canva</span>
+              <span class="chip">Figma</span>
+              <span class="chip">Notion</span>
+              <span class="chip">Google Sheets</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="role reveal">
+        <div class="role-meta">
+          <div class="role-when">Sep 2023 — Feb 2024</div>
+          <span class="role-type">Digital / Social · Part-time</span>
+          <div class="role-loc">Remote<br>Dhaka, Bangladesh</div>
+        </div>
+        <div class="role-body">
+          <h3>Social Media Manager</h3>
+          <div class="role-org">FNF Soft</div>
+          <ul>
+            <li>Managed daily Facebook activities and community engagement.</li>
+            <li>Handled inbox communication and organic growth strategy.</li>
+            <li>Designed and published social media creatives.</li>
+            <li>Monitored audience interactions.</li>
+          </ul>
+          <div class="role-tools">
+            <div class="lbl">Tools</div>
+            <div class="chip-row">
+              <span class="chip">Canva</span>
+              <span class="chip">Figma</span>
+              <span class="chip">Meta Business Suite</span>
+              <span class="chip">Instagram</span>
+              <span class="chip">Notion</span>
+              <span class="chip">ChatGPT</span>
+              <span class="chip">Google Workspace</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Digital & Brand Projects -->
+    <div class="projects-subhead reveal" style="margin-top:48px">
+      <span class="num">— Digital &amp; Brand Projects</span>
+      <h3>Digital &amp; Brand Experience</h3>
+    </div>
+
+    <div class="digi-grid">
+      <div class="digi reveal">
+        <div class="digi-cat">Digital / Brand Experience</div>
+        <h4 class="digi-title">DigiFlow Studio</h4>
+        <div class="digi-role">Social Media &amp; Brand Development Contributor</div>
+        <div class="digi-when">Aug 2025 — Oct 2025 · Remote</div>
+        <p class="digi-desc">Contributed to brand development, social media strategy, promotional content planning, and organic growth across digital platforms.</p>
+      </div>
+      <div class="digi reveal">
+        <div class="digi-cat">Digital / Brand Experience</div>
+        <h4 class="digi-title">Drops Off Studio</h4>
+        <div class="digi-role">Co-Founder &amp; Social Media Manager</div>
+        <div class="digi-when">Apr 2024 — Aug 2025 · Remote</div>
+        <p class="digi-desc">Co-founded and managed social media operations, content development, community interaction, and organic audience engagement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     JOURNEY
+     ========================================= -->
+<section id="journey" class="journey" data-screen-label="07 Journey">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">06 — Career Journey</span>
+      </div>
+      <h2>Continuous growth — not a sudden switch.</h2>
+      <p class="section-sub">From digital growth and professional social media work to Computer Science and Cyber Security.</p>
+    </div>
+
+    <div class="journey-track reveal">
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">2020 →</div>
+        <div class="step-title">Digital &amp; Social</div>
+        <div class="step-desc">Growth · communities</div>
+      </div>
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">2021 — 2026</div>
+        <div class="step-title">Computer Science</div>
+        <div class="step-desc">B.Sc. in CSE</div>
+      </div>
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">2026 — 2027</div>
+        <div class="step-title">Software Engineering</div>
+        <div class="step-desc">M.Sc. in progress</div>
+      </div>
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">2026 →</div>
+        <div class="step-title">Cyber Security</div>
+        <div class="step-desc">M.Sc. major</div>
+      </div>
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">Now</div>
+        <div class="step-title">Security Projects</div>
+        <div class="step-desc">PhishGuard · labs</div>
+      </div>
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">Now</div>
+        <div class="step-title">Hands-on Practice</div>
+        <div class="step-desc">Tools · CTFs</div>
+      </div>
+      <div class="journey-step">
+        <div class="dot"></div>
+        <div class="num">Ongoing</div>
+        <div class="step-title">Continuous Growth</div>
+        <div class="step-desc">Learn · Build · Test · Improve</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     EDUCATION
+     ========================================= -->
+<section id="education" data-screen-label="08 Education">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">07 — Education</span>
+      </div>
+      <h2>Academic background.</h2>
+      <p class="section-sub">A straightforward record of my formal education.</p>
+    </div>
+
+    <div class="exp-grid">
+      <div class="exp-col reveal">
+        <h3>Degrees</h3>
+        <div class="exp-list">
+          <div class="exp-item">
+            <div class="exp-when">May 2026 — Sep 2027 · In Progress</div>
+            <div class="exp-title">M.Sc. in Software Engineering</div>
+            <div class="exp-org">Major in Cyber Security · Daffodil International University</div>
+            <div class="exp-desc">Currently pursuing a Master's with a specialization in Cyber Security.</div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-when">Sep 2021 — Jan 2026</div>
+            <div class="exp-title">B.Sc. in Computer Science &amp; Engineering</div>
+            <div class="exp-org">Daffodil International University</div>
+            <div class="exp-desc">Undergraduate studies in Computer Science &amp; Engineering.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-col reveal">
+        <h3>Higher Secondary</h3>
+        <div class="exp-list">
+          <div class="exp-item">
+            <div class="exp-when">Jan 2018 — Jan 2021</div>
+            <div class="exp-title">Higher Secondary Certificate (HSC)</div>
+            <div class="exp-org">Milestone College</div>
+            <div class="exp-desc">Higher secondary education, completed prior to undergraduate studies.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     CERTIFICATIONS
+     ========================================= -->
+<section id="certifications" data-screen-label="09 Certifications">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">08 — Professional Development &amp; Certifications</span>
+      </div>
+      <h2>Professional Development &amp; Certifications.</h2>
+      <p class="section-sub">Completed training and certifications across digital marketing, UI/UX design, and business skills. Cyber Security credentials will be added here as they're earned.</p>
+    </div>
+
+    <div class="cert-group reveal">
+      <div class="cert-group-title completed">
+        <span>Completed</span>
+        <span class="count">7 certificates</span>
+      </div>
+      <div class="certs-grid">
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">Social Media Marketing</div>
+            <div class="cert-issuer">HP · 2026</div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">AI-Driven Meta Ads Mastery</div>
+            <div class="cert-issuer">Skilluper · 2026</div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">Facebook Marketing</div>
+            <div class="cert-issuer">10 Minute School · 2023</div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">Introduction to Digital Business Skills</div>
+            <div class="cert-issuer">HP · 2026</div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">UI/UX Design Career Track Program</div>
+            <div class="cert-issuer">Ostad · 2025</div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">Canva Essentials</div>
+            <div class="cert-issuer">Canva · 2026</div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-head">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="cert-status completed">Completed</div>
+          </div>
+          <div>
+            <div class="cert-name">Create Scroll-Stopping Content</div>
+            <div class="cert-issuer">Canva · 2026</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     GITHUB CTA
+     ========================================= -->
+<section id="github" data-screen-label="10 GitHub">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">09 — Building in Public</span>
+      </div>
+      <h2>Code, notes, experiments.</h2>
+      <p class="section-sub">Cyber Security, software engineering, Linux, networking, and hands-on learning — all in one place.</p>
+    </div>
+
+    <div class="gh-cta reveal">
+      <div class="gh-cta-copy">
+        <div class="kicker">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-github"/></svg>
+          GitHub · @akif7787
+        </div>
+        <h3>View my GitHub repositories.</h3>
+        <p>PhishGuard and my other projects represent what I'm currently building and learning through — all in one place.</p>
+        <div class="gh-cta-actions">
+          <a href="https://github.com/akif7787" target="_blank" rel="noopener" class="btn btn-primary">
+            View GitHub
+            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="gh-cta-visual" aria-hidden="true">
+        <div class="gh-avatar">AA</div>
+        <div class="lines">
+          <div class="name">Ahanf Akif</div>
+          <div class="handle">@akif7787</div>
+          <div class="bio">Cyber Security · Software Engineering</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     SECURITY LAB
+     ========================================= -->
+<section id="lab" data-screen-label="11 Lab">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-title">
+        <span class="num">10 — Inside My Security Lab</span>
+      </div>
+      <h2>Where theory becomes hands-on practice.</h2>
+      <p class="section-sub">Demonstration commands from a controlled learning environment. Examples of what I explore — not results being claimed.</p>
+      <div class="lab-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg>
+        CONTROLLED LAB ENVIRONMENT · DECORATIVE OUTPUT
+      </div>
+    </div>
+
+    <div class="lab-grid">
+      <div class="term reveal">
+        <div class="term-head">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="name">system · identity</div>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="cmd">whoami</span></div>
+          <div class="term-line out">security-learner</div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="cmd">id</span></div>
+          <div class="term-line out">uid=1000(learner) groups=1000(learner),27(sudo)</div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="term-caret"></span></div>
+        </div>
+      </div>
+
+      <div class="term reveal">
+        <div class="term-head">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="name">system · info</div>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="cmd">uname -a</span></div>
+          <div class="term-line out">Linux security-lab · x86_64 GNU/Linux</div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="cmd">lsb_release -d</span></div>
+          <div class="term-line out">Description: Debian-based lab distribution</div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="term-caret"></span></div>
+        </div>
+      </div>
+
+      <div class="term reveal">
+        <div class="term-head">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="name">network · interfaces</div>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="cmd">ip a</span></div>
+          <div class="term-line out">1: lo: &lt;LOOPBACK,UP&gt; mtu 65536</div>
+          <div class="term-line out">    inet 127.0.0.1/8 scope host lo</div>
+          <div class="term-line out">2: eth0: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500</div>
+          <div class="term-line out">    inet &lt;lab-network&gt; scope global eth0</div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="cmd">ss -tuln</span></div>
+          <div class="term-line out">Netid  State   Local Address:Port</div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~</span>$ <span class="term-caret"></span></div>
+        </div>
+      </div>
+
+      <div class="term reveal">
+        <div class="term-head">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="name">nmap · service scan</div>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~/recon</span>$ <span class="cmd">nmap -sV &lt;lab-target&gt;</span></div>
+          <div class="term-line out"># run against controlled lab targets only</div>
+          <div class="term-line out">Starting Nmap ( https://nmap.org )</div>
+          <div class="term-line out">Scanning &lt;lab-target&gt; …</div>
+          <div class="term-line out"><span class="k">PORT      STATE   SERVICE   VERSION</span></div>
+          <div class="term-line out">&lt;port&gt;    &lt;state&gt; &lt;service&gt; &lt;version&gt;</div>
+          <div class="term-line out"><span class="ok"># output redacted · lab practice</span></div>
+          <div class="term-line"><span class="prompt">learner@lab</span>:<span class="path">~/recon</span>$ <span class="term-caret"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     CONTACT
+     ========================================= -->
+<section id="contact" data-screen-label="12 Contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-head reveal">
+        <div class="eyebrow" style="margin-bottom:20px">11 — GET IN TOUCH</div>
+        <h2>Let's build something meaningful.</h2>
+        <p>I'm open to Cyber Security, Software Engineering, and security-focused opportunities — internships, projects, collaborations, or a good technical conversation.</p>
+
+        <div class="contact-list">
+          <a href="mailto:ahanafik21@gmail.com">
+            <span class="link-k">Email</span>
+            <span class="link-label">ahanafik21@gmail.com</span>
+            <span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="tel:+8801643442518">
+            <span class="link-k">Phone</span>
+            <span class="link-label">+880 1643 442 518</span>
+            <span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ahanafakif21/" target="_blank" rel="noopener">
+            <span class="link-k">LinkedIn</span>
+            <span class="link-label">linkedin.com/in/ahanafakif21</span>
+            <span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="https://github.com/akif7787" target="_blank" rel="noopener">
+            <span class="link-k">GitHub</span>
+            <span class="link-label">github.com/akif7787</span>
+            <span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="assets/Ahanf-Akif-CV.pdf" download>
+            <span class="link-k">Resume</span>
+            <span class="link-label">Download PDF</span>
+            <span class="link-arrow" aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <!-- Full social grid -->
+        <div style="margin-top:32px">
+          <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px">Connect With Me</div>
+          <div class="social-grid">
+            <a href="https://github.com/akif7787" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-github"/></svg> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/ahanafakif21/" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn
+            </a>
+            <a href="https://www.facebook.com/ahanafak7787" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-facebook"/></svg> Facebook
+            </a>
+            <a href="https://www.behance.net/ahanafakif21" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-behance"/></svg> Behance
+            </a>
+            <a href="https://dribbble.com/ahanafak21" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-dribbble"/></svg> Dribbble
+            </a>
+            <a href="https://medium.com/@ahanafakif21" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-medium"/></svg> Medium
+            </a>
+            <a href="https://linktr.ee/ahanafakif" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-linktree"/></svg> Linktree
+            </a>
+            <a href="mailto:ahanafik21@gmail.com">
+              <svg aria-hidden="true"><use href="#i-mail"/></svg> Email
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--
+        Contact form — Web3Forms ready.
+        To activate delivery: set data-web3forms-key="YOUR_ACCESS_KEY"
+        Get a free key at https://web3forms.com
+      -->
+      <form class="form-card reveal" id="contact-form" data-web3forms-key="" novalidate>
+        <div class="title">Send a message</div>
+        <input type="hidden" name="subject" value="New portfolio contact — Ahanf Akif"/>
+        <input type="hidden" name="from_name" value="Portfolio · ahanfakif"/>
+        <!-- Web3Forms honeypot -->
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off"/>
+
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="e.g. Alex Johnson" required autocomplete="name"/>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="alex@company.com" required autocomplete="email"/>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="A few words about what you'd like to discuss…" required></textarea>
+        </div>
+        <div class="form-foot">
+          <div class="encrypt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Sent over HTTPS
+          </div>
+          <button type="submit" class="btn btn-primary btn-sm">
+            Send Message
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </div>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================
+     FOOTER
+     ========================================= -->
+<footer>
+  <div class="container">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <div class="brand-mark">A</div>
+        <div class="txt">
+          <div class="name">Ahanf Akif</div>
+          <div class="sub">Cyber Security · Software Engineering</div>
+        </div>
+      </div>
+      <div style="font-family:var(--font-mono);font-size:12px;color:var(--text-mute);letter-spacing:0.06em">
+        Learn · Build · Test · Improve
+      </div>
+      <div class="foot-social">
+        <a href="https://github.com/akif7787" target="_blank" rel="noopener" aria-label="GitHub"><svg aria-hidden="true"><use href="#i-github"/></svg></a>
+        <a href="https://www.linkedin.com/in/ahanafakif21/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+        <a href="https://www.facebook.com/ahanafak7787" target="_blank" rel="noopener" aria-label="Facebook"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a>
+        <a href="https://www.behance.net/ahanafakif21" target="_blank" rel="noopener" aria-label="Behance"><svg aria-hidden="true"><use href="#i-behance"/></svg></a>
+        <a href="https://dribbble.com/ahanafak21" target="_blank" rel="noopener" aria-label="Dribbble"><svg aria-hidden="true"><use href="#i-dribbble"/></svg></a>
+        <a href="https://medium.com/@ahanafakif21" target="_blank" rel="noopener" aria-label="Medium"><svg aria-hidden="true"><use href="#i-medium"/></svg></a>
+        <a href="https://linktr.ee/ahanafakif" target="_blank" rel="noopener" aria-label="Linktree"><svg aria-hidden="true"><use href="#i-linktree"/></svg></a>
+        <a href="mailto:ahanafik21@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+      </div>
+    </div>
+
+    <div class="foot-legal">
+      <div>© 2026 Ahanf Akif</div>
+      <div>Dhaka, Bangladesh · Designed &amp; built with care</div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/scripts.js?v=4"></script>
+</body>
+</html>
