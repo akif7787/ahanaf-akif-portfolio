@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <!-- Base Container Gradient: Deep Obsidian & Cyber Black -->
+    <linearGradient id="akifFaviconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#080C14" />
+      <stop offset="50%" stopColor="#0F172A" />
+      <stop offset="100%" stopColor="#050811" />
+    </linearGradient>
+    <!-- Border Ring Gradient: Dual Cyber Spectrum -->
+    <linearGradient id="akifFaviconBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#10B981" stop-opacity="0.9" />
+      <stop offset="45%" stopColor="#06B6D4" stop-opacity="0.7" />
+      <stop offset="80%" stopColor="#3B82F6" stop-opacity="0.5" />
+      <stop offset="100%" stopColor="#10B981" stop-opacity="0.3" />
+    </linearGradient>
+    <!-- Primary Lit Facet: Vivid Emerald to Cyan -->
+    <linearGradient id="akifFaviconFacetLit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#34D399" />
+      <stop offset="50%" stopColor="#10B981" />
+      <stop offset="100%" stopColor="#06B6D4" />
+    </linearGradient>
+    <!-- Shadow/Bevel Facet: Deep Cyber Teal with Edge Light -->
+    <linearGradient id="akifFaviconFacetShadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#059669" />
+      <stop offset="50%" stopColor="#047857" />
+      <stop offset="100%" stopColor="#0F766E" />
+    </linearGradient>
+    <!-- Crossbar Chevron Bridge Gradient -->
+    <linearGradient id="akifFaviconChevronGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#38BDF8" />
+      <stop offset="50%" stopColor="#6EE7B7" />
+      <stop offset="100%" stopColor="#38BDF8" />
+    </linearGradient>
+    <!-- Core Diamond Node Gradient -->
+    <linearGradient id="akifFaviconCoreNode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="50%" stopColor="#38BDF8" />
+      <stop offset="100%" stopColor="#0284C7" />
+    </linearGradient>
+    <!-- Ambient Glow -->
+    <radialGradient id="akifFaviconAmbientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stopColor="#10B981" stop-opacity="0.35" />
+      <stop offset="60%" stopColor="#06B6D4" stop-opacity="0.12" />
+      <stop offset="100%" stopColor="#0B0F19" stop-opacity="0" />
+    </radialGradient>
+    <!-- Glow Filter -->
+    <filter id="akifFaviconGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Squircle Glass Base Container -->
+  <rect
+    x="3"
+    y="3"
+    width="94"
+    height="94"
+    rx="25"
+    fill="url(#akifFaviconBg)"
+    stroke="url(#akifFaviconBorder)"
+    stroke-width="2.2"
+  />
+  <!-- Tech Micro-Grid / Corner HUD Registration Brackets -->
+  <path
+    d="M 12 18 L 12 12 L 18 12 M 82 12 L 88 12 L 88 18 M 12 82 L 12 88 L 18 88 M 88 82 L 88 88 L 82 88"
+    stroke="#10B981"
+    stroke-width="1.2"
+    stroke-opacity="0.4"
+    stroke-linecap="round"
+  />
+  <!-- Ambient Core Radial Glow -->
+  <circle cx="50" cy="50" r="32" fill="url(#akifFaviconAmbientGlow)" />
+  <!-- Geometric Shield / Monogram \"A\" Wings -->
+  <!-- Left Wing (Beveled Shaded Facet) -->
+  <path
+    d="M 50 16 L 22 72 L 34 76 L 50 38 Z"
+    fill="url(#akifFaviconFacetShadow)"
+  />
+  <!-- Right Wing (Radiant Lit Facet) -->
+  <path
+    d="M 50 16 L 78 72 L 66 76 L 50 38 Z"
+    fill="url(#akifFaviconFacetLit)"
+  />
+  <!-- Apex Optical Cap / Bevel highlight -->
+  <polygon
+    points="50,16 53,24 50,27 47,24"
+    fill="#ECFDF5"
+    opacity="0.95"
+  />
+  <!-- Center Interlocking Cyber Crossbar Chevron -->
+  <path
+    d="M 33 54 L 50 44 L 67 54 L 62 60 L 50 52 L 38 60 Z"
+    fill="url(#akifFaviconChevronGrad)"
+  />
+  <!-- Center Shield Lower Infill / Keystroke Accent -->
+  <polygon
+    points="50,46 56,53 50,60 44,53"
+    fill="#06121E"
+    stroke="#06B6D4"
+    stroke-width="1"
+    stroke-opacity="0.6"
+  />
+  <!-- Floating Core Cryptographic Node / Defense Nexus -->
+  <g filter="url(#akifFaviconGlow)">
+    <polygon
+      points="50,63 58,71 50,79 42,71"
+      fill="url(#akifFaviconCoreNode)"
+    />
+    <!-- Ultra-bright white center point -->
+    <circle cx="50" cy="71" r="2.2" fill="#FFFFFF" />
+  </g>
+  <!-- Lower Base Grounding Line -->
+  <line
+    x1="38"
+    y1="83"
+    x2="62"
+    y2="83"
+    stroke="#10B981"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-opacity="0.6"
+  />
+  <circle cx="50" cy="83" r="1.5" fill="#38BDF8" />
+</svg>
